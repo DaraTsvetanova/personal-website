@@ -16,20 +16,17 @@
 
 <body>
   <header>
-    <nav class="navbar">
-      <h1 class="logo"><a class="current" href="index.html">DT</a></h1>
-      <ul class="main-nav">
-        <li><a href="projects.html"><i class="fas fa-code"></i> Projects</a></li>
-        <!-- <li><a href="blog.html"><i class="far fa-comment-dots"></i> Blog</a></li> -->
-        <li><a href="about.html"><i class="far fa-smile-wink"></i> About Me</a></li>
-        <li><a href="contact.html"><i class="far fa-envelope"></i> Contacts</a></li>
-      </ul>
+    <nav id="navbar">
+      <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+      <!--<a href="blog.html"><i class="far fa-comment-dots"></i> Blog</a> -->
+      <a href="#about-me"><i class="far fa-smile-wink"></i> About Me</a>
+      <a href="#contacts"><i class="far fa-envelope"></i> Contacts</a>
     </nav>
 
     <div id="intro">
       <div class="intro-content">
         <h1>Hi. I'm <span class="special">Dara Tsvetanova.</span></h1>
-        <p>Self-taught developer with experience in JavaScript, HTML and CSS.</p>
+        <p> I'm a self-taught Front-end developer with experience in JavaScript, HTML and CSS.</p>
         <!-- CALL TO ACTION <a class="btn" href="about.html">About Our Hotel</a> -->
       </div>
       <div class="intro-img">
@@ -38,10 +35,11 @@
     </div>
   </header>
 
-  <section class="projects">
+  <section id="projects">
+    <h3>Projects</h3>
     <div class="project">
       <div class="project-img">
-        <img src="./img/Untitled design (4).png" alt="">
+        <img src="./img/skukaproject.png" alt="image">
       </div>
       <div class="project-info">
         <a class="project-link" href="https://skuka.netlify.app/" target="_blank" rel="noopener noreferrer">Skuka</a>
@@ -58,15 +56,16 @@
     <br>
     <div class="project">
       <div class="project-img">
-        <img src="./img/Untitled design (4).png" alt="">
+        <img src="./img/podcastreviewsproject.png" alt="image">
       </div>
       <div class="project-info">
-        <a class="project-link" href="https://skuka.netlify.app/" target="_blank" rel="noopener noreferrer">Skuka</a>
-        <p>A website that tells you what to do when you're bored. It uses a third-party API which generates
-          activities based on certain criteria.</p>
-        <p><span>Technologies:</span> JavaScript, HTML, CSS, Third party API</p>
+        <a class="project-link" href="https://skuka.netlify.app/" target="_blank" rel="noopener noreferrer">Podcast
+          Reviews in progress</a>
+        <p>Website for podcast reviews with implemented CRUD operations. In the future I will add the Spotify API so a
+          user can search particular podcast show with name, host and picture.</p>
+        <p><span>Technologies:</span> JavaScript, HTML, CSS</p>
         <div class="action-btn">
-          <a href="https://github.com/DaraTsvetanova/skuka" class="primary-btn" target="_blank"
+          <a href="https://github.com/DaraTsvetanova/podcast-review-app" class="primary-btn" target="_blank"
             rel="noopener noreferrer">Code</a>
           <a href="https://skuka.netlify.app/" class="primary-btn" target="_blank" rel="noopener noreferrer">Live</a>
         </div>
@@ -75,40 +74,64 @@
     <br>
     <div class="project">
       <div class="project-img">
-        <img src="./img/Untitled design (4).png" alt="">
+        <img src="./img/personalwebsite.png" alt="image">
       </div>
       <div class="project-info">
-        <a class="project-link" href="https://skuka.netlify.app/" target="_blank" rel="noopener noreferrer">Skuka</a>
-        <p>A website that tells you what to do when you're bored. It uses a third-party API which generates
-          activities based on certain criteria.</p>
-        <p><span>Technologies:</span> JavaScript, HTML, CSS, Third party API</p>
+        <a class="project-link" href="https://skuka.netlify.app/" target="_blank" rel="noopener noreferrer">Personal
+          website</a>
+        <p>A personal website/portfolio where I share the things I have learned and created.</p>
+        <p><span>Technologies:</span> HTML, CSS</p>
         <div class="action-btn">
-          <a href="https://github.com/DaraTsvetanova/skuka" class="primary-btn" target="_blank"
+          <a href="https://github.com/DaraTsvetanova/personal-website" class="primary-btn" target="_blank"
             rel="noopener noreferrer">Code</a>
-          <a href="https://skuka.netlify.app/" class="primary-btn" target="_blank" rel="noopener noreferrer">Live</a>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-img">
+        <img src="./img/login:register.png" alt="image">
+      </div>
+      <div class="project-info">
+        <a class="project-link" href="https://codewiselysignup.netlify.app/" target="_blank"
+          rel="noopener noreferrer">Login/Register Form</a>
+        <p>A login/register form inspired by Dribbble illustration.</p>
+        <p><span>Technologies:</span> HTML, CSS</p>
+        <div class="action-btn">
+          <a href="https://github.com/DaraTsvetanova/login-register-form" class="primary-btn" target="_blank"
+            rel="noopener noreferrer">Code</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="about-me">
+  <section id="about-me">
     <div class="personal-info">
-      <p></p>
+      <h3>About me</h3>
+      <p>Four years ago I was inspired to get into the tech world. But not as a developer. I chose the HR path,
+        recruitment in particular. I've always loved communication with people and helping them to find their dream job.
+      </p>
+      <br>
+      <p>In 2020 I decided to pursue a career as a JavaScript developer. After four years in the IT industry, I wanted
+        to be more involved in the software world. I've always been a visual person so I gravitated towards front-end
+        development. Always eager to learn new things and solve puzzles.</p>
     </div>
     <div class="personal-img">
-      <img src="" alt="">
+      <img src="./img/undraw_Modern_professional_re_3b6l (1).svg" alt="person">
     </div>
   </section>
 
-  <section class="contacts">
+  <section id="contacts">
     <div class="socials">
       <h2>Just say hi.</h2>
       <p>I am always open to discuss tech topics and learn something new.</p>
       <h3>Follow me at:</h3>
       <div>
-        <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
-        <a href="#"><i class="fab fa-github icon"></i></a>
-        <a href="#"><i class="fab fa-twitter icon"></i></a>
+        <a href="https://www.linkedin.com/in/dara-tsvetanova-9a1677106/" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-linkedin-in icon"></i></a>
+        <a href="https://github.com/DaraTsvetanova" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-github icon"></i></a>
+        <a href="https://twitter.com/DaraTsvetanova" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-twitter icon"></i></a>
       </div>
     </div>
     <div class="message">
